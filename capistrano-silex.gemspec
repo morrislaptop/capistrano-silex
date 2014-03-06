@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'capistrano-cakephp'
+  spec.name          = 'capistrano-silex'
   spec.version       = '0.0.1'
   spec.authors       = ['Craig Morris']
   spec.email         = ['craig.michael.morris@gmail.com']
-  spec.description   = %q{CakePHP support for Capistrano 3.x}
-  spec.summary       = %q{CakePHP support for Capistrano 3.x}
-  spec.homepage      = 'https://github.com/morrislaptop/capistrano-cakephp'
+  spec.description   = %q{Silex support for Capistrano 3.x - Coming Soon}
+  spec.summary       = %q{Silex support for Capistrano 3.x}
+  spec.homepage      = 'https://github.com/morrislaptop/capistrano-silex'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

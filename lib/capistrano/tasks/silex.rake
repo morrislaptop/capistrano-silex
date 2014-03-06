@@ -1,4 +1,4 @@
-namespace :cakephp do
+namespace :silex do
 
 
 end
